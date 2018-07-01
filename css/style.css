@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/home_background6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 100%;
+}
+
+
+/*Some custom fonts*/
+
+@font-face {
+    font-family: inder;
+    src: url(../fonts/Inder-Regular.ttf);
+}
+
+@font-face {
+    font-family: SF;
+    src: url(../fonts/SanFranciscoText-Regular.otf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+.container {
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 3% 10%;
+    opacity: 0.9;
+}
+
+.header {
+    background-color: #6534ff;
+    color: #fff;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: inder, raleway, Arial, sans-serif;
+}
+
+.main-content {
+    font-family: SF, raleway, Arial, sans-serif;
+}
+
+.banner-text {
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.form-input {
+    padding: 2%;
+}
+
+input {
+    height: 40px;
+    width: 50%;
+    font-size: 28px;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #6534ff;
+}
+
+.result {
+    color: red;
+    padding-bottom: 5%;
+}
+
+select {
+    height: 45px;
+    width: 50%;
+    font-size: 18px;
+    background-color: #000c29;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000c29;
+    padding: 1%;
+    color: #fff;
+    font-family: inder, raleway, Arial, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+/*Mobile Styles*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+    }
+    .container {
+        text-align: center;
+        background-color: #f3f3f3;
+        margin: 0;
+        opacity: 1;
+        height: 100%;
+    }
+}
