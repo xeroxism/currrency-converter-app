@@ -24,7 +24,7 @@ function convertCurrency() {
             result.innerHTML = convertedAmount.toFixed(2);
         }
     };
-    xmlhttp.open("GET", `https://free.currencyconverterapi.com/api/v6/convert?q=${currId}&compact=ultra&apiKey=4e89e9e6ebef7956885evert?q=${currId}&compact=ultra&apiKey=4e89e9e6ebef7956885e`, true);
+    xmlhttp.open("GET", `https://free.currencyconverterapi.com/api/v6/convert?q=${currId}&compact=ultra&apiKey=4e89e9e6ebef7956885e`, true);
     xmlhttp.send();
 
 }
